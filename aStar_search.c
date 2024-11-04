@@ -1,15 +1,17 @@
 /*-------------------------------------------------------------------------------------------
 A* Algorithm Implementation in C
 
-A very basic and easy to understand implementation of A* algorithm in C that was part of
-my "Fundamentals of Programming" course at the University of Zanjan, Fall 2012.
-
-Meysam Parvizi (http://meysamparvizi.ir)
-     
-The A* algorithm adopted from:
-http://www.raywenderlich.com/4946/introduction-to-a-pathfinding
-
-Special thanks to my teacher Dr. Mohsen Nourazar
+Create DefaultMap.txt file with data:
+0000000000
+0000###0#$
+##00##0##0
+0#00000000
+0000####00
+0#00000000
+0#########
+0#00000000
+0000##0#00
+0000##0#@0
 --------------------------------------------------------------------------------------------*/
 
 #include <stdio.h>
